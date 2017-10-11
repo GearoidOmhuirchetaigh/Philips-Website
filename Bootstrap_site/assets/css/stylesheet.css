@@ -1,0 +1,890 @@
+@font-face {
+    font-family: 'roboto_slablight';
+    src: url('../fonts/robotoslab-light-webfont.woff') format('woff2'),
+         url('../fonts/robotoslab-light-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: 'roboto_slablight', "Gill Sans MT", "Myriad Pro", Helvetica, Arial, sans-serif;
+	line-height: 1.42857143;
+	color: #000000;
+	/* text colour will be inherited by child elements unless an elemnt specifies otherwise */
+	background-color: #fff;    /* sets the background colour for the page */
+	
+}
+
+h1, h2    ,  h3,  h4,  h5 {
+	font-family: 'robotoregular', "Gill Sans MT", "Myriad Pro", Helvetica, Arial, sans-serif;
+	color: #000000;
+}
+
+.navbar {
+	background-color: #2b7c74;
+	font-size: 1.25em;
+	border: none;
+	margin-bottom: 0;
+	
+}
+.navbar-header {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.container #navcol-1 .nav.navbar-nav.navbar-right {
+	margin-top: 22px;
+	margin-bottom: 8px;
+	font-family: 'Roboto', sans-serif;
+	margin-right: 0px;
+	font-size: 1.2em;
+	
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > a:focus {
+	border-radius: 5px;
+	background-image: url(../img/active_link__nav_bg.png);
+	background-position: 4px center;
+	background-repeat: no-repeat;
+	background-size: 7px 7px;
+	color: #FFFFFF;
+	
+}
+.navbar-default .navbar-nav > li > a:hover {
+	background-image: url(../img/active_link__nav_bg.png);
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	background-size: 7px 7px;
+	color: #FFFFFF;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li  {
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #000000;
+}
+.navbar-default .navbar-toggle {
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #ffffff;
+}
+
+
+.hero {
+	background-repeat: no-repeat;
+	background-image: url(../img/old-lady-younger-carer2.png);
+	min-height: 645px;
+	margin-top: 70px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	padding: 40px;
+	background-position: center center;
+	text-align: center;
+	background-size: cover;
+
+}
+.promo  {
+	border-radius: 20px;
+	background-color: rgba(130,130,130,0.17);
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	border-style: none;
+	max-width: 1200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+
+
+
+
+
+.hero h2     {
+	margin-bottom: 22px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 3.2em;
+	padding-left: 2px;
+	padding-right: 2px;
+	
+}
+.hero h3 {
+	text-align: center;
+	font-size: 2em;
+	padding-bottom: 22px;
+	padding-top: 0px;
+	margin-top: -7px;
+}
+
+
+.hero p   {
+	text-align: center;
+	font-size: 1.9em;
+	font-weight: 300;
+	
+}
+.btn.btn-success.btn-lg {
+	border-radius: 7px;
+	font-size: medium;
+}
+
+.intro {
+	margin-right: 0;
+	margin-left: 0;
+	padding-right: 4px;
+	padding-left: 4px;
+	padding-bottom: 80px;
+	
+}
+
+.intro p  {
+	font-size: 1.2em;
+	margin-top: -5px;
+
+	
+}
+
+.intro h2 {
+	text-align: center;
+	font-size: 2.2em;
+	padding-top: 16px;
+	padding-right: 4px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	background-image: url(../../../Carshare1/Text_lines.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+.main {
+	padding-right: 2px;
+	padding-bottom: 55px;
+	padding-left: 2px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(../img/eco_friendly_bg.jpg);
+
+}
+.main_left_section   {
+	padding-left: 35px;
+}
+
+.main_right_section {
+	padding-left: 35px;
+
+	
+}
+
+.main h2 {
+	padding-right: 2px;
+	padding-bottom: 44px;
+	padding-left: 2px;
+	font-weight: 400;
+	padding-top: 30px;
+}
+.main h3 {
+	margin-left: 104px;
+	padding-bottom: 76px;
+	max-height: 3px;
+	margin-top: -53px;
+}
+
+ #box1{
+	height: 256px;
+	width: 100%;
+	background-image: url(../img/city_img.jpg);
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	 
+}
+
+h1 {
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: 700;
+}
+
+.textContainer {
+	height: 305px;
+	line-height: 300px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-image: url(../img/text_bg.png);
+	background-position: center center;
+	
+}
+
+.textContainer h1 {
+	vertical-align: middle;
+	display: inline-block;
+	color: #FFFFFF;
+	font-weight: 500;
+	
+}
+
+.personas {
+	padding-top: 35px;
+	padding-right: 4px;
+	padding-bottom: 35px;
+	padding-left: 4px;
+	background-color: #ECECEC;
+	
+}
+
+h4 {
+	font-size: 1.7em;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	
+}
+
+.personas section {
+	border-radius: 7px;
+	margin-top: 10px;
+	padding-top: 14px;
+	padding-bottom: 2px;
+}
+
+.how {
+	background-color: #FBFBFB;
+	margin-top: 60px;
+	padding-bottom: 95px;
+
+}
+.icon-features {
+	padding-left: 35px;
+}
+
+
+.icon-features section {
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	background-color: rgba(223,223,223,0.33);
+	border-radius: 14px;
+	
+}
+
+.how h2 {
+	padding-right: 2px;
+	padding-bottom: 40px;
+	padding-left: 2px;
+	padding-top: 30px;
+	
+}
+
+.how h3 {
+	font-size: 1.62em;
+	padding-top: 8px;
+	padding-right: 24px;
+	padding-bottom: 2px;
+	padding-left: 24px;
+	
+}
+
+.how .icon-how {
+	margin-top: 15px;
+	
+}
+
+.icon-how .glyphicon {
+	font-size: 40px;
+	
+}
+
+.icon-how  {
+	text-align: center;
+	
+}
+
+.how section {
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 18px;
+	padding-left: 2px;
+	border-top-left-radius: 75px;
+	border-bottom-right-radius: 75px;
+	border: thin solid rgba(189,189,189,0.49);
+	
+}
+
+.how .glyphicon  {
+	font-size: 3.9em;
+	color: #37CC43;
+	padding-top: 20px;
+
+}
+
+.history_main {
+	background-color: #4D4D4D;
+	padding-bottom: 0px;
+	color: #E3E3E3;
+
+}
+.history_main h2 {
+	padding-bottom: 60px;
+	padding-top: 60px;
+	background-image: url(../img/Text_lines_wide.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: #fff;
+	text-align: center;
+	
+}
+
+.history_info {
+	padding-left: 20px;
+	padding-bottom: 40px;
+
+}
+.history_info h3 {
+	color: #E3E3E3;
+}
+.history_main p {
+	font-size: 1.2em;
+	padding-top: 2px;
+	color: #E3E3E3;
+	
+}
+
+.poster {
+	padding-bottom: 60px;
+	padding-top: 14px;
+	
+}
+
+.form {
+	background-color: #4D4D4D;
+	min-height: 600px;
+	margin-bottom: 0px;
+	padding-top: 200px;
+	padding-bottom: 92px;
+
+}
+
+.form_body h2 {
+	color: #FFFFFF;
+
+}
+
+.form_body p {
+	color: #e3e3e3;
+	font-size: 1.2em;
+	padding-bottom: 34px;
+	padding-top: 2px;
+
+}
+
+.form-control {
+	min-height: 70px;
+	background-color: #E9E9E9;
+	font-size: 1.2em;
+
+}
+
+.form-control:hover {
+	color: #4EADF1;
+
+}
+
+.form_main {
+	padding-bottom: 60px;
+	padding-top: 12px;
+
+}
+
+
+.panel-title {
+	color: #FFFFFF;
+	padding-bottom: 23px;
+	font-size: 1.8em;
+
+}
+
+.signUp_body {
+	padding-top: 6px;
+	padding-bottom: 26px;
+
+}
+
+.input-group {
+	margin-bottom: 20px;
+
+}
+
+.register {
+	max-height: 74px;
+	font-size: 1.1em;
+	color: #FFFFFF;
+	padding-top: 2px;
+	padding-bottom: 14px;
+
+}
+
+.input-group-addon   {
+	background-color: #D9D9D9;
+	color: #474747;
+
+}
+
+/* Hiding the checkbox, but allowing it to be focused */
+.badgebox
+{
+    opacity: 0;
+}
+
+.badgebox + .badge
+{
+	/* Move the check mark away when unchecked */
+	text-indent: -999999px;
+	/* Makes the badge's width stay the same checked and unchecked */
+	width: 20px;
+}
+
+.badgebox:focus + .badge
+{
+    /* Set something to make the badge looks focused */
+    /* This really depends on the application, in my case it was: */
+    
+    /* Adding a light border */
+    box-shadow: inset 0px 0px 5px;
+    /* Taking the difference out of the padding */
+}
+
+.badgebox:checked + .badge
+{
+    /* Move the check mark back when checked */
+	text-indent: 0;
+}
+
+.btn.btn-success.btn-md {
+	margin-top: 22px;
+	margin-left: -15px;
+	min-width: 130px;
+	min-height: 41px;
+	font-size: 1em;
+}
+
+.form .btn-block {
+	background-color: #40a629;
+	font-weight: 600;
+	font-size: 1em;
+}
+.row .col-md-10.register a {
+	color: #37CC43;
+}
+
+
+.about_us {
+	background-color: #4D4D4D;
+	min-height: 600px;
+	margin-bottom: 0px;
+	padding-bottom: 140px;
+	padding-top: 200px;
+	background-repeat: no-repeat;
+	background-position: right 143%;
+	padding-left: 20px;
+
+}
+.about_us h2 {
+	padding-left: 14px;
+	color: #FFFFFF;
+}
+.about_us h3 {
+	color: #E3E3E3;
+	margin-top: 8px;
+}
+
+
+.about_us p {
+	color: #D5D5D5;
+	padding-bottom: 34px;
+	padding-top: 2px;
+	padding-left: 0px;
+	font-size: 1.2em;
+
+}
+
+.team {
+	background-color: #ECECEC;
+	padding-top: 47px;
+	padding-bottom: 38px;
+
+}
+
+.team section {
+	margin-top: 19px;
+	margin-bottom: 48px;
+
+}
+
+.team h2 {
+	text-align: center;
+	color: #000000;
+	background-image: url(../img/Text_lines_wider.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+
+.team h4 {
+
+}
+
+footer {
+	background-color: #292c2f;
+	box-sizing: content-box;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+	bottom: 0;
+	color: #fff;
+	
+}
+
+.footer-navigation p.links a {
+	color: #FFFFFF;
+	text-decoration: none;
+	
+}
+.footer-navigation p.links a:hover {
+	color: #40a629;
+}
+
+
+.row .col-md-4.col-sm-6.footer-navigation img {
+	margin-bottom: 19px;
+	
+}
+
+.footer-navigation p.company-name {
+  color:#8f9296;
+  font-size:14px;
+  font-weight:normal;
+  margin-top:20px;
+	
+}
+
+.fa.footer-contacts-icon {
+  background-color:#33383b;
+  color:#fff;
+  font-size:18px;
+  width:38px;
+  height:38px;
+  border-radius:50%;
+  text-align:center;
+  line-height:38px;
+  margin:10px 15px 10px 0;
+	
+}
+
+span.new-line-span {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2;
+	display: block;
+	
+}
+
+.footer-about h4 {
+  display:block;
+  color:#fff;
+  font-size:14px;
+  font-weight:bold;
+  margin-bottom:20px;
+	
+}
+
+
+.footer-about p {
+  line-height:20px;
+  color:#92999f;
+  font-size:13px;
+  font-weight:normal;
+  margin:0;
+	
+}
+
+div.social-links {
+	margin-top: 20px;
+	
+}
+.footer-contacts div .email a   {
+	color: #E3E3E3;
+}
+
+
+.social-links a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 5px;
+	margin-bottom: 4px;
+	
+}
+
+
+
+
+@media (max-width:992px) {
+
+.history_info {
+	margin-top: -13px;
+
+}
+
+.textContainer h1 {
+	font-size: 42px;
+
+}
+.textContainer {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(../img/text_bg.png);
+}
+.right_section {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+
+}
+
+}
+
+
+@media (max-width: 767px){
+.container .row .col-md-12 {
+	background-color: rgba(255,255,255,0.00);
+	
+}
+.navbar-header {
+	padding-left: 14px;
+}
+.promo {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.hero h2 {
+	font-size: 2.5em;
+}
+.hero h3 {
+	font-size: 1.7em;
+}
+
+
+
+.main_right_section {
+	padding-left: 2px;
+}
+.main_left_section {
+	padding-left: 2px;
+}
+.icon-features {
+	padding-left: 2px;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+}
+
+
+
+
+	
+.history_info {
+	margin-top: -1px;
+	
+}
+	
+.poster .center-block {
+	min-width: 320px;
+	min-height: 487px;
+	
+}
+	
+.textContainer h1 {
+	font-size: 40px;
+	
+}
+.about_us .center-block {
+	max-height: 241px;
+	max-width: 305px;
+	padding-left: 2px;
+	padding-right: 2px;
+	
+}
+
+}
+
+.footer-contacts p {
+  display:inline-block;
+  color:#ffffff;
+  vertical-align:middle;
+	
+}
+
+.footer-contacts p a {
+  color:#5383d3;
+  text-decoration:none;
+	
+}
+
+.footer-navigation .links a:hover {
+	color: #2b7c74;
+	
+}
+
+
+
+
+@media (max-width: 360px){
+.navbar-header {
+	padding-left: 14px;
+}
+.promo  {
+	background-color: rgba(255,255,255,0.00);
+	border-style: none;
+
+}
+.promo h3 {
+	border-radius: 10px;
+	background-color: rgba(225,225,225,1.00);
+	text-decoration: none;
+	padding-top: 8px;
+	padding-right: 4px;
+	padding-bottom: 8px;
+	padding-left: 4px;
+}
+.promo h2 {
+	padding-top: 4px;
+	padding-bottom: 12px;
+}
+
+
+
+
+
+.row.icon-features .col-md-6.col-sm-12.col-xs-12.icons img{
+	display: none;
+	
+}
+	
+.row.icon-features .col-md-4.col-md-push-2.col-sm-12.col-xs-12.icons img {
+	display: none;
+	
+}
+
+.icons p {
+	margin-top: 6px;
+	margin-left: 0px;
+	background-color: rgba(171,171,171,0.26);
+	border-radius: 7px;
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+	
+.personas .center-block   {
+	max-width: 100px;
+	max-height: 100px;
+
+}
+article img {
+	display: none;
+	right: 100px;
+	
+}
+.main {
+	padding-bottom: 70px;
+	
+}
+.main h3 {
+	margin-left: 0px;
+	margin-top: 0px;
+	background-color: rgba(171,171,171,0.37);
+	padding-left: 14px;
+	padding-right: 14px;
+	border-radius: 12px;
+	padding-top: 14px;
+	margin-bottom: 18px;
+	padding-bottom: 96px;
+	
+}
+
+
+.poster .center-block {
+	min-width: 170px;
+	min-height: 258px;
+	max-width: 170px;
+	max-height: 258px;
+	
+}
+	
+.textContainer h1 {
+	font-size: xx-large;
+	
+}
+.about_us {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.about_us .center-block {
+	max-width: 200px;
+	max-height: 155px;
+	padding-left: 2px;
+	padding-right: 2px;
+	
+}
+	
+.team .center-block {
+	max-width: 100px;
+	max-height: 100px;
+	
+}
+.icon-how .glyphicon {
+	font-size: 3.2em;
+
+
+}
+.form .btn-block {
+	margin-top: 22px;
+}
+
+
+
+}
