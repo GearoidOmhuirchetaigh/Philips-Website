@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+    <html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Team 16">
+    <meta name="description" content="Welcome to Elderhomeshare website."> 
+    <meta name="keywords" content="elders, care, companions">
+    
+    <!-- Page title --> 
+    <title>Elderhomeshare</title>
+    
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="assets/css/user.css">
+    
+    
+     <!-- Java script for Rollover Image --> 
+    <script type="text/javascript">
+	
+	function MM_preloadImages() { //v3.0
+	  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+		var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+		if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+	}
+
+	function MM_swapImgRestore() { //v3.0
+	  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+	}
+
+	function MM_findObj(n, d) { //v4.01
+	  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+		d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+	  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+	  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+	  if(!x && d.getElementById) x=d.getElementById(n); return x;
+	}
+
+	function MM_swapImage() { //v3.0
+	  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+	   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+	}	
+
+    </script>
+    
+</head>
+
+<body>
+   
+        <nav class="navbar navbar-default second">
+            <div class="container">
+                <div class="navbar-header">
+                    <!--       Elderhomeshare logo        -->
+					<a href="index.html"><img src="assets/img/logo.png" alt="Elderhomeshare logo" width="284" height="79" id="Image1" onMouseOver="MM_swapImage('Image1','','assets/img/logo_hover.png',1)" onMouseOut="MM_swapImgRestore()">
+				  	</a>
+                  <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><img src="assets/img/burger_menu_bg.png" alt="custom button" width="42" height="29"></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                       <li role="presentation"><a href="login.html">login</a></li>
+                        <li role="presentation"><a href="profiles.html">search</a></li>
+                        <li role="presentation"><a href="about_us.html">about </a></li>
+                        <li role="presentation"><a href="faq.html">faq </a></li>
+                        
+                    </ul>
+                </div>
+             </div>
+		</nav>
+    
+     
+       <!-- start .div -->
+    <div class="form">
+    
+        <!-- start .container -->
+    	<div class="container">
+    	
+    	    <!-- start .row -->
+    		<div class="row">
+  
+        	    <!-- start .section -->
+        		<section class="col-md-8 col-md-push-2 col-sm-12 col-xs-12 signUp_body">
+        			<h2 class="panel-title_1">Registration <small>for Companions</small></h2>
+        			
+		    		    <!-- start .form -->
+			    		<form action="#" method="post" id="my-form">
+			    		
+			    			<div class="row">
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    				
+									<div class="input-group">
+										<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+										<input type="text" class="form-control input-md" required="" name="name" id="name"  placeholder="Enter your Name"/>
+									</div>
+			    					
+			    				</div>
+			    				
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="input-group">
+										<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+										<input type="text" class="form-control input-md" required="" name="username" id="username"  placeholder="Enter your Username"/>
+									</div>
+			    				</div>
+			    			 </div>
+			    			 
+							
+			    			 <div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+								<input type="email" class="form-control input-md" required="" name="email" id="email"  placeholder="Enter your Email"/>
+							 </div>
+							 
+							
+			    			<div class="row">
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="input-group">
+										<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									  <input type="password" class="form-control input-md" required="" name="password" id="password" placeholder="Enter your Password"/>
+								    </div>
+			    				</div>
+			    				
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="input-group">
+										<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									  <input type="password" class="form-control input-md" required="" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
+									</div>
+		    				   </div>
+			    			</div>
+			    			
+			    			
+			    			<div class="row">
+				              <div class="col-md-3 register">
+				              <label for="success" class="btn btn-success">I agree<input type="checkbox" id="success" class="badgebox"><span class="badge">&check;</span></label>
+			                </div>
+				         
+							   <div class="col-md-9 col-sm-12 register">
+									By clicking <strong class="label label-success">Register</strong> , you agree to the <a href="#" data-toggle="modal" data-target="#t_and_c_m">Terms and Conditions</a> set out by this site, including our Cookie Use.
+							   </div>
+			                </div>
+			    			
+			    			<input type="submit" value="Register" class="btn btn-block">
+			    			
+			    		</form> <!-- end .form -->
+			    
+   				</section> <!-- end .section -->
+   				
+			 </div> <!-- end .row -->
+			 
+		</div> <!-- end .container -->
+	</div>       
+    
+        	
+    
+    
+	
+
+    <!-- start .footer --> 
+		<footer>
+
+			  <!-- start .container -->
+			   <div class="container">
+
+			   <!-- start .row -->
+				<div class="row">
+
+					<div class="col-md-4 col-sm-6 footer-navigation">
+						<a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','assets/img/logo_hover.png',1)"><img src="assets/img/logo.png" alt="Elderhomeshare logo" width="200" height="55" id="Image2">
+			            </a>
+					  <p class="links"><a href="index.html">login</a><strong> · </strong><a href="about_us.html">search</a><strong> · </strong><a href="about_us.html">about</a><strong> · </strong><a href="faq.html">faq</a></p>
+						<p class="company-name">Elderhomeshare © 2017 </p>
+				  </div>
+
+					<div class="col-md-4 col-sm-6 footer-contacts">
+						<div><span class="fa fa-map-marker footer-contacts-icon"></span>
+							<p><span class="new-line-span">Fumbally Exchange 5 Dame Lane</span> Dublin 2, Ireland</p>
+						</div>
+						<div><i class="fa fa-phone footer-contacts-icon"></i>
+							<p class="footer-center-info email text-left">087-138-5628</p>
+						</div>
+						<div><i class="fa fa-envelope footer-contacts-icon"></i>
+							<p class="email"><a href="#" target="_blank">elderhomeshare@gmail.com</a></p>
+						</div>
+					</div>
+
+					<div class="col-md-4 footer-about">
+						<h4>About the company</h4>
+						<p> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+						</p>
+						<div class="social-links social-icons">
+							<a href="https://www.facebook.com/?hl=en" target="_blank" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','assets/img/facebook_icon_hover.png',1)"><img src="assets/img/facebook_icon.png" alt="Facebook icon" width="40" height="40" id="Image3"></a>
+							
+							<a href="https://www.twitter.com/?hl=en" target="_blank" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','assets/img/twitter_icon_hover.png',1)"><img src="assets/img/twitter_icon.png" alt="Twitter icon" width="40" height="40" id="Image4"></a>
+				    		
+				    		<a href="https://www.linkedin.com/?hl=en" target="_blank" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','assets/img/linkedin_icon_hover.png',1)"><img src="assets/img/linkedin_icon.png" alt="Linkedin icon" width="40" height="40" id="Image5"></a>
+				    		
+				    		<a href="https://www.instagram.com/?hl=en" target="_blank" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','assets/img/instagram_icon_hover.png',1)"><img src="assets/img/instagram_icon.png" alt="Instagram icon" width="40" height="40" id="Image6"></a>
+					    </div>
+				
+				   </div>
+				
+				</div> <!-- end .row -->
+			
+			   </div> <!-- end .container -->
+
+			</footer> <!-- end .footer -->
+    
+    
+    
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
